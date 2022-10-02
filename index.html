@@ -5,32 +5,53 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Markdown-to-html</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,100&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <h1>Aurélie Van Hellemont</h1>
+    <h1>
+      Aurélie <br />
+      Van Hellemont
+    </h1>
     <blockquote>
       ❧ The simple things are sometimes the most beautiful ☙
     </blockquote>
-    <img src="IMG_3088.jpeg" alt="Photo of me" />
+    <div class="profile">
+      <img src="IMG_3088.jpeg" alt="Photo of me" />
 
-    <h2>I'm not funny! I just like to laugh! 😉</h2>
+      <h2 class="presentation">
+        I'm not funny! <br />
+        I just like to laugh! 😉
+      </h2>
+    </div>
 
     <table>
       <tr>
-        <th>Q</th>
-        <th>A</th>
+        <th>Questions</th>
+        <th>Answers</th>
       </tr>
       <tr>
-        <td>Birthday?</td>
-        <td>07/01/1999</td>
+        <td class="question">Birthday?</td>
+        <td class="answers">07/01/1999</td>
       </tr>
       <tr>
-        <td>Favorite color?</td>
-        <td>Blue and Pink</td>
+        <td class="question">Favorite color?</td>
+        <td class="answers">Blue and Pink</td>
       </tr>
       <tr>
-        <td>Pineapple on pizza?</td>
-        <td>It's OK for me!</td>
+        <td class="question">Pineapple on pizza?</td>
+        <td class="answers">It's OK for me!</td>
       </tr>
     </table>
 
@@ -50,7 +71,7 @@
 
     <h2>You can always count on me...</h2>
 
-    <p>we are together, I will respect you, teamwork teaches me a lot.</p>
+    <p>We are together, I will respect you, teamwork teaches me a lot.</p>
 
     <h2>A funny story ?</h2>
 
@@ -59,12 +80,12 @@
     <h2>TL;DR</h2>
     <p>Simply put, it's not the story that's funny or my life. It's me! 😉</p>
 
-    <a href="https://github.com/LeAnsman/markdown-challenge">Previous</a>
-    <p>||</p>
-    <a href="https://github.com/Avanhellemont/markdown-challenge"
-      >Aurélie Van Hellemont</a
-    >
-    <p>||</p>
-    <a href="https://github.com/Elhya13/markdown-challenge">Next</a>
+    <div class="link">
+      <a href="https://github.com/LeAnsman/markdown-challenge">👈</a>
+
+      <a href="https://github.com/Avanhellemont/markdown-challenge">🔄</a>
+
+      <a href="https://github.com/Elhya13/markdown-challenge">👉</a>
+    </div>
   </body>
 </html>
